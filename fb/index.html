@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" class="logo-text">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td><label class="login-table">Email or Mobile</label></td>
+                        <td><label class="login-table">Password</label></td>
+                    </tr>
+                    <tr>
+                       <td><input type="text"></td> 
+                       <td><input type="text"></td>
+                       <td><input type="submit" value="Login" class="sub-btn"></td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td><a href="forgetten.html" class="forgetten">forgetten account?</a></td> 
+                    </tr>
+                </table>
+            </form>
+            </div>
+        </div>
+          <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the <br>people in your life.</p>
+                <img src="img/Network-Computer-.png" alt="fb images" class="images">     
+            </div>
+            
+            <div class="right-section">
+                <h1>Creat an account</h1>
+                <p>it's quick and easy.</p>
+                <form action="forgetten.html" id="signupform">
+                    <input name="fname" type="text" placeholder="Firstname" class="inp">
+                    <input name="sname" type="text" placeholder="Surname" class="inp"><br>
+                    <input name="mobileNum" type="nu" placeholder="Mobile number" class="mbl"><br>
+                    <input name="password" type="password" placeholder="New Password" class="mbl"><br>
+
+                    <h3 style="    color: grey; margin-bottom: 4px;">Brithday</h3>
+                    <select name="Days" id="day">
+                        <option value="">Days</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select id="day" style="width: 60px;" name="month">
+                        <option value="">Month</option>
+                        <option value="january">january</option>
+                        <option value="february">february</option>
+                        <option value="march">march</option>
+                        <option value="april">april</option>
+                        <option value="may">may</option>
+                        <option value="june">june</option>
+                        <option value="july">july</option>
+                        <option value="august">august</option>
+                        <option value="september">september</option>
+                        <option value="october">october</option>
+                        <option value="november">november</option>
+                        <option value="december">december</option>
+                    </select>
+                    <select id="day" name="year">
+                        <option value="">year</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                    </select>
+                    <h3 style="  color: grey; margin-bottom: 4px;">Gender</h3>
+                    <input type="radio" id="html" name="Gender" value="HTML">
+                      <label for="html">Female</label>
+                      <input type="radio" id="css" name="Gender" value="CSS">
+                      <label for="css">Male</label>
+                      <input type="radio" id="javascript" name="Gender" value="JavaScript">
+                      <label for="javascript">Custome</label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quaerat nobis impedit praesentium. Consequuntur quae provident, 
+                        laboriosam nihil adipisci illo ad.</p>
+     
+                        <button class="btn">Sign Up</button>
+     
+                </form>
+                
+            </div>
+          
+          </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
+</body>
+</html>
